@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book a bike taxi with rapido</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div class="bgimg">
+            
+            <nav class="navbar navbar-expand-xl bg-light navbar-light fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <i class="fa fa-motorcycle fa-2x motor"></i>
+                        <a href="index.html" class="navbar-brand"><h4> rapido </h4></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="collapsenavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link"><h4>  Home </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link "> <h4> About us </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="safety.html" class="nav-link "> <h4> Safety </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="career.html" class="nav-link "><h4> Careers </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link "> <h4> Blog </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="press.html" class="nav-link "> <h4> Press </h4></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link "> <h4> Contact us </h4></a>
+                            </li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                            <button class="btn btn-dark " type="button" ><h4> Download App </h4></button>
+                        
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+            </nav>
+            
+            
+            <div class="container text-dark headerset text-left">
+                <h2> India's largest bike taxi service </h2>
+                <h1>Rapido is India's first and fastest-growing Bike taxi app with a whopping 25 Million+ app downloads. We are now running operations in more than 100 cities.</h1>
+                <br/>
+                <button class="btn btn-warning text-white btn-lg btn1" onclick="location.href='https://play.google.com/store/apps/details?id=com.rapido.passenger&referrer=af_tranid%3D5Jh0yWV1q7GzsvNOztijIA%26shortlink%3D3f16ae94%26af_dp%3Drapido%253A%252F%252Fopen%252F%26pid%3DRapido%20Website%28Android%29%26source_caller%3Dui'" type="button"> Download Rapido </button>&nbsp;
+                <button type="button" class="btn btn-warning text-white btn-lg btn2" data-toggle="modal" data-target="#signupModal">Sign up as Driver</button>
+
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-weight-bold" id="signupModalLabel">Become a captain</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <!-- Add your sign-up form here -->
+        
+        <form>
+            
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+
+          <div class="form-group">
+            <select class="form-control" id="city">
+                <option value="">Select a city</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="phone" placeholder="Enter phone number"><br><button type="submit" class="btn btn-primary"> Get OTP </button>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="otp" placeholder="Enter OTP" disabled>
+          </div>
+
+          <div class="form-group">
+            Do you have a valid driving license ?<br>
+            <input type="radio"  id="dl" value="yes"> Yes&nbsp;
+            <input type="radio"  id="dl" value="no"> No<br/>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Sign up</button>
+
+        </form>
+        <br/>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+            
+</div>
+
+        <section class="container services text-center">
+            <h1>What makes rapido the best?</h1>
+            <p>Let's see how we're so confident about being the best bike taxi:</p>
+
+            <div class="row rowsetting">
+
+                <div class="c col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
+                    <div class="imgsetting">
+                        <img src="img/5.jpeg" width="300px" height="300px" class="images">
+                    </div>
+                    <h2>Safety</h2>
+                    <p>At rapido, the well-being of our customers is above everything else.</p>
+                </div>
+
+                <div class="c col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
+                    <div class="imgsetting">
+                        <img src="img/1.png" width="300px" height="300px" class="images">
+                    </div>
+                    <h2>Fastest Rides</h2>
+                    <p>Get the fastest bike rides in your city with Rapido.</p>
+                </div>
+
+                <div class="c col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
+                    <div class="imgsetting">
+                        <img src="img/2.png" width="300px" height="300px" class="images">
+                    </div>
+                    <h2>Easy Booking</h2>
+                    <p>Book a ride with just a few taps on your phone.</p>
+                </div>
+                
+                <div class="c col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
+                    <div class="imgsetting">
+                        <img src="img/3.png" width="300px" height="300px" class="images">
+                    </div>
+                    <h2>Affordable Prices</h2>
+                    <p>Get the most affordable bike rides in your city with Rapido.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="port bg-white">
+            <div class="container text-center">
+                <h1>Our impact</h1>
+                <p>Our presence in the country has changed the concept of intra-city travel and made last-mile connectivity affordable for all.</p>
+                <div class="row">
+                <div class="c col-lg-3 col-md-4 col-sm-12 col-12 d-block m-auto">
+                    <div class="card">
+                        <i class="fa fa-cloud-download fa-light fa-4x text-warning"></i>
+                        <div class="card-body">
+                            <h2 class="card-title">25 M</h2>
+                            <p class="card-text">Downloads</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c col-lg-3 col-md-4 col-sm-12 col-12 d-block m-auto">
+                    <div class="card">
+                        <i class="fa fa-building-o fa-light fa-4x text-warning"></i>
+                        <div class="card-body">
+                            <h2 class="card-title">100 +</h2>
+                            <p class="card-text">cities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c col-lg-3 col-md-4 col-sm-12 col-12 d-block m-auto">
+                    <div class="card">
+                        <i class="fa fa-user fa-light fa-4x text-warning"></i>
+                        <div class="card-body">
+                            <h2 class="card-title">1 + M</h2>
+                            <p class="card-text">captains</p>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="c col-lg-3 col-md-4 col-sm-12 col-12 d-block m-auto">
+                    <div class="card">
+                        <i class="fa fa-users fa-light fa-4x text-warning"></i>
+                        <div class="card-body">
+                            <h2 class="card-title">10 + M</h2>
+                            <p class="card-text">customers</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+        </section>
+
+        
+        <footer class="bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5 class="text-white font-weight-bold">About Rapido</h5>
+                        <ul class="list-unstyled">
+                            <li><a  class="text-white" href="about.html">Our Story</a></li>
+                                <li><a  class="text-white" href="blog.html">Our Blog</a></li>
+                                <li><a  class="text-white" href="career.html">Careers</a></li>
+                                <li><a  class="text-white" href="press.html">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5  class="text-white font-weight-bold">Get in Touch</h5>
+                        <ul class="list-unstyled">
+                            <li><a  class="text-white" href="#">Contact Us</a></li>
+                            <li><a  class="text-white" href="#">Help Center</a></li>
+                            <li><a  class="text-white" href="#">Partner with Us</a></li>
+                            <li><a  class="text-white" href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5 class="text-white font-weight-bold">Legal</h5>
+                        <ul class="list-unstyled">
+                            <li><a  class="text-white" href="#">Terms &amp; Conditions</a></li>
+                            <li><a  class="text-white" href="#">Privacy Policy</a></li>
+                            <li><a  class="text-white" href="#">Cookie Policy</a></li>
+                            <li><a  class="text-white" href="#">Cancellation &amp; Refund Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5 class="text-white font-weight-bold">Connect with Us</h5>
+                        <ul class="list-unstyled">
+                            <li><a  class="text-white" href="https://www.facebook.com/rapido4bike/"><i class="fa fa-facebook fa-2x text-white"></i> Facebook </a></li>
+                            <li><a  class="text-white" href="https://twitter.com/rapidobikeapp"><i class="fa fa-twitter fa-2x text-white"></i> Twitter</a></li>
+                            <li><a  class="text-white" href="https://www.instagram.com/rapidoapp/"><i class="fa fa-instagram fa-2x text-white"></i> Instagram</a></li>
+                            <li><a  class="text-white" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHfBbYScOdHQwAAAYfNaNuwz3ufM7B2YV_U7Fo7nFFkxpKj33iI0NvD-dB1qrQVLSTqf_uPFV5ik4FNbSkF4z64Iwdb6Ec4E9TFqROm7V4gNtRyJB2HHrPEjuRUPEtdMJ0yzVk=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Frapido-bike%2F"><i class="fa fa-linkedin fa-2x text-white"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="playstore">
+                        
+                            <a href="https://apps.apple.com/IN/app/id1198464606?mt=8" class="btn btn-store text-white">
+                                <span class="fa fa-apple fa-2x"></span>&nbsp;
+                                <span class="btn-label"> Download on the</span><br>
+                                <span class="btn-caption"> App Store</span>
+                            </a>
+                        
+                        
+                            <a href="https://play.google.com/store/apps/details?id=com.rapido.passenger&referrer=af_tranid%3DjHUQ96RuO5pMR-Hvaa-O4Q%26shortlink%3D3f16ae94%26af_dp%3Drapido%253A%252F%252Fopen%252F%26pid%3DRapido%20Website%28Android%29%26source_caller%3Dui" class="btn btn-store text-white">
+                                <span class="fa fa-android fa-2x"></span> &nbsp;
+                                <span class="btn-label"> Download on the</span><br>
+                                <span class="btn-caption"> Google Play</span>
+                            </a>
+                        
+                    </div>
+
+                </div>
+                <hr><br/>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="text-muted text-center">&copy; 2023 Rapido</p>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </footer>
+        
+    </body>
+</html>
